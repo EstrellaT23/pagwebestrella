@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #1f1f1f;
+    color: #d4a373;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    margin: 0;
+}
+.header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.main {
+    padding: 40px;
+    text-align: center;
+}
+.main h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.main p {
+    font-size: 1.2rem;
+    color: #666;
+}
+.main button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.about, .services, .testimonials, .contact {
+    padding: 40px 20px;
+}
+.about {
+    background-color: #000000;
+    color: #d4a373;
+}
+.about h2, .services h2, .testimonials h2, .contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about p, .contact p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.services .service, .testimonials .testimonial {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.service img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.service .details {
+    flex: 1;
+}
+.service .details h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+.service .details p {
+    color: #666;
+}
+.service .details button {
+    background-color: #d4a373;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.testimonial p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact form label {
+    margin: 10px 0 5px;
+}
+.contact form input, .contact form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.contact form button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
